@@ -23,13 +23,13 @@ Tested on the Aliexpress Blue Pill STM32F103 Board
 * TEMPLATE  - 	Use this folder as a Skeleton for other Projects
 * MAPLE 	  -	   Generated bins inside this Folder are for the maple dfu bootloader.
 
-- Use the TEMPLATE folder as a Skeleton for other Projects
-
-- In the MAPLE folder I copied the GPIO example but the generated bins are for the maple dfu bootloader.
+-- Skeleton --
+* Use the TEMPLATE folder as a Skeleton for other Projects
+* In the MAPLE folder I copied the GPIO example but the generated bins are for the maple dfu bootloader.
   Previously You have to upload the maple_dfu_bootloader firmware into the Blue Pill Chip.
   It is a lot easier to upload the binary code using the maple_dfu_bootloader.
 
-- To Build the Binaries just Browse into any of the project folder and type make to compile
+* To Build the Binaries just Browse into any of the project folder and type make to compile
 
 -- Install --
 - For Linux
