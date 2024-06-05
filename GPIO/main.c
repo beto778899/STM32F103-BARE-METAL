@@ -1,11 +1,11 @@
 /********************************************************************************
-*		 		Blinks Two Leds. PC13 And PC14 at different speeds.			   	*
+* 	Blinks Two Leds. PC13 And PC14 at different speeds.		   	*
 ********************************************************************************/
 
 #include "rcc_gpio_tick.c"				// Definitions And Functions For rcc_init, gpio_init, systick_init
 
 /********************************************************************************
-* 		Sort Of MultiTasking Using The Systick Interrupt	When OS Is NA    	*
+* 	Sort Of MultiTasking Using The Systick Interrupt	When OS Is NA 	*
 ********************************************************************************/
 
 // Systick_Loop() Is Called Every 1ms. millis++ Is Incremented On Every Call. Both Defined in "rcc_gpio_tick.c" 
