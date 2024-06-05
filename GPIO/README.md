@@ -1,16 +1,16 @@
-Toggles The Pins PC13, PC14 using the SysTick Timer.
+Toggles The Pins PC13 And PC14 using the SysTick Timer.
 
-Here are Some Examples To Setup The Pins
+-- Here are Some Examples To Setup The Pins --
 
-gpio_setup(GPIOC, 13, GPIO_MODE_OUT_50MHz | GPIO_CNF_OUT_GPIO_OPEN);		// Makes PC13 Output
+* gpio_setup(GPIOC, 13, GPIO_MODE_OUT_50MHz | GPIO_CNF_OUT_GPIO_OPEN);     // Makes PC13 Output
 
-gpio_setup(GPIOA, 6, GPIO_MODE_IN | GPIO_CNF_IN_PULL);						// Makes PA6  Input 
+* gpio_setup(GPIOA, 6, GPIO_MODE_IN | GPIO_CNF_IN_PULL);  // Makes PA6  Input 
 
-gpio_out(GPIOC, 13, 1);					// Sets PC13
+* gpio_out(GPIOC, 13, 1);                                 // Sets PC13
 
-gpio_Toggle(GPIOC, 13);					// Toggles PC13
+* gpio_Toggle(GPIOC, 13);                                 // Toggles PC13
 
-bool test = gpio_in(GPIOC, 15);			// Reads PC15
+* bool test = gpio_in(GPIOC, 15);                         // Reads PC15
 	
 
 
