@@ -7,7 +7,6 @@
 * Tested With An RC Filter. Needs Some Tuning Though
 * Tested With Two Pots For Disturbing The process    		
 
-* PA0 -- R1K -- 100uF -- R1K -- PA1(PWM) 
-* ---------------|
-* --------------GND	
+PA0 -- R1K -- 100uF -- R1K -- PA1(PWM) 
+---------------GND	
 
