@@ -1,6 +1,6 @@
 
 /********************************************************************************
-* 		Sort Of MultiTasking Using Systick Interrupt	When OS Is NA	    	*
+* 	Sort Of MultiTasking Using Systick Interrupt	When OS Is NA	    	*
 ********************************************************************************/
 
 #include "rcc_gpio_tick.c"					// Functions For rcc_init, gpio_init, systick_init
