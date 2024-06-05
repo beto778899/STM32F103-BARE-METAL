@@ -1,21 +1,17 @@
 # STM32F103-BARE-METAL
-Blue Pill STM32F103 Bare Metal I2C SPI UART PWM Programming
-
 Yet another Bare Metal Implementation For The Blue Pill STM32F103 
 
 Based on the Ideas Taken From This Site https://github.com/aleksey-makarov/stm32.
 By Aleksei Makarov who wrote Some Code For His Son Peter.
 
 The Application codes are for the Diferent Pheripherals like UART, SPI, I2C, GPIO, PWM, A0
-
 All the Examples Make Use Of The SysTick Timer.
-
 Tested on the Aliexpress Blue Pill STM32F103 Board
 
 -- Projects --
 * GPIO  	  -   Toggles The Pins PC13, PC14 using the SysTick Timer.
 * USART 	  -   Reads the PC15 at 300ms Interval, Then Sends The Value To USART.
-* ADC_PWM 	- 	Reads The ADC1 periph at 100ms Interval, Then Sends The Value To PWM, LED (Proportional To ADC1)
+* ADC_PWM 	- 	Reads The ADC1 periph at 100ms Interval, Then Sends The Value To PWM, LED 
 * SPI_I2C_PWM_BLINK - Counter Loop From 0-255 Sends The Value To SPI, I2C, PWM, LED
 * SPI_MAX7219 - Inits and Blinks Some LEDs on The MAX7219 8x8 LED Matrix Module. Using the SPI Protocol
 * I2C_PCF8574 - Inits and Blinks Some LEDs on The PCF8574 Module. Using the I2C Protocol
