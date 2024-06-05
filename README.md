@@ -29,7 +29,6 @@ Tested on the Aliexpress Blue Pill STM32F103 Board
   Previously You have to upload the maple_dfu_bootloader firmware into the Blue Pill Chip.
   It is a lot easier to upload the binary code using the maple_dfu_bootloader.
 
--- Projects --
 - To Build the Binaries just Browse into any of the project folder and type make to compile
 
 -- Install --
