@@ -10,7 +10,7 @@ Toggles The Pins PC13 And PC14 using the SysTick Timer.
 
 * gpio_Toggle(GPIOC, 13);					// Toggles PC13
 
-* bool test = gpio_in(GPIOC, 15);				// Reads PC15
+* bool test = gpio_in(GPIOC, 15);			 	// Reads PC15
 	
 
 
